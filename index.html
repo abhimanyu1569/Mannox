@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #2563eb;
+      --bg: #f8fafc;
+      --text: #1e293b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-top: 10px;
+      object-fit: cover;
+      border: 3px solid white;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: var(--primary);
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .skills span {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 5px;
+      font-size: 12px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: var(--primary);
+      color: white;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 22px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <p>Your Title (e.g. Cloud Security Engineer)</p>
+  <img src="https://via.placeholder.com/150" alt="Profile Photo"/>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <div class="card">
+    <p>
+      Write a short professional summary here. Focus on skills, experience, and what you are targeting.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card skills">
+    <span>AWS</span>
+    <span>Cloud Security</span>
+    <span>Python</span>
+    <span>Linux</span>
+    <span>Networking</span>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="card">
+    <h3>Job Title</h3>
+    <p><strong>Company Name</strong> | Duration</p>
+    <p>Describe your work, tools used, and impact.</p>
+  </div>
+
+  <div class="card">
+    <h3>Another Role</h3>
+    <p><strong>Company Name</strong> | Duration</p>
+    <p>Describe achievements with measurable results.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>Project Name</h3>
+    <p>Short description of the project, tech used, and outcome.</p>
+    <p><a href="#">GitHub Link</a></p>
+  </div>
+
+  <div class="card">
+    <h3>Project Name</h3>
+    <p>Short description of the project.</p>
+    <p><a href="#">Live Demo</a></p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: your@email.com</p>
+    <p>Phone: +91 XXXXX XXXXX</p>
+    <p>
+      <a href="#">LinkedIn</a> | 
+      <a href="#">GitHub</a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
